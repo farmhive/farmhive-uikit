@@ -1,5 +1,5 @@
 {
-  "name": "@blzd-dev/uikit",
+  "name": "@farmhive/uikit",
   "version": "0.13.25",
   "description": "Set of UI components for Blizzard projects",
   "main": "dist/index.cjs.js",
@@ -8,7 +8,7 @@
   "files": [
     "dist"
   ],
-  "repository": "https://github.com/blzd-dev/blzd-uikit",
+  "repository": "https://github.com/farmhive/farmhive-uikit",
   "license": "MIT",
   "scripts": {
     "build": "rm -rf ./dist && rollup -c && tsc -d --emitDeclarationOnly --declarationDir dist",
