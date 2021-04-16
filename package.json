@@ -1,6 +1,6 @@
 {
   "name": "@farmhive/uikit",
-  "version": "0.13.25",
+  "version": "0.13.26",
   "description": "Set of UI components for Blizzard projects",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
@@ -21,8 +21,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "yarn format",
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+      "pre-commit": "yarn format"
     }
   },
   "jest": {
